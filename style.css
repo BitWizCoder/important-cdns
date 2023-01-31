@@ -1,0 +1,136 @@
+/* All Colors
+bg
+text
+input
+border
+*/
+
+/* Colors */
+body {
+  background-color: #212529;
+  color: aliceblue;
+  font-family: "Fira Code";
+}
+
+/* input styles */
+input {
+  background-color: #495057 !important;
+  border: 1px solid #9ab36d !important;
+  color: #e6a009 !important;
+}
+
+input:focus {
+  border-color: #fff !important;
+  box-shadow: none !important;
+}
+
+/* Selection Color */
+::-moz-selection {
+  /* Code for Firefox */
+  /* color: red; */
+  background: #403844;
+}
+
+::selection {
+  /* color: red; */
+  background: #403844;
+}
+
+/* Butoon Styles */
+.btn,
+.btn-primary {
+  background-color: #495057 !important;
+  border: 1px solid #9ab36d !important;
+}
+
+/* copy btn */
+.copy-icon {
+  color: #9ab36d;
+  color: #e6a009;
+}
+
+/* Footer */
+a {
+  text-decoration: none;
+  color: #e6a009;
+}
+
+a:hover {
+  color: #9ab36d;
+}
+
+/* Tooltip styles */
+.toolti {
+  position: relative;
+  display: inline-block;
+}
+
+.toolti .tooltitext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.toolti .tooltitext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.toolti:hover .tooltitext {
+  visibility: visible;
+  opacity: 1;
+}
+.toolti {
+  position: relative;
+  display: inline-block;
+}
+
+.toolti .tooltitext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.toolti .tooltitext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.toolti:hover .tooltitext {
+  visibility: visible;
+  opacity: 1;
+}

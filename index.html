@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <!-- cdn links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.min.css" integrity="sha512-MbysAYimH1hH2xYzkkMHB6MqxBqfP0megxsCLknbYqHVwXTCg9IqHbk+ZP/vnhO8UEW6PaXAkKe2vQ+SWACxxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Important CDN's</title>
+  </head>
+  <body>
+    <h1 class="text-center mt-5 mb-4">< Important CDN's for Web DEV /></h1>
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+      <!-- Bootstrap -->
+      <div class="row mb-4">
+        <div class="col">
+          <!-- input fields -->
+          <input
+          type="text"
+          value="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+          id="bootstrap"
+          class="form-control"
+          style="width: 50rem"
+          />
+          <label class="mt-1">Bootstrap</label>
+        </div>
+        <div class="col">
+          <!-- tooltip -->
+          <div class="toolti align-self-center align-items-center">
+            <button
+              class="btn btn-primary"
+              onclick="bootstrap()"
+              onmouseout="outFunc()"
+            >
+              <span class="tooltitext" id="bsToolti">Copy to clipboard</span>
+              <i class="fa-regular fa-copy copy-icon"></i
+            </button>
+          </div>
+        </div>
+      </div>
+
+            <!-- Bootstrap JS -->
+            <div class="row mb-4">
+              <div class="col">
+                <!-- input fields -->
+                <input
+                type="text"
+                value="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+                id="bootstrapjs"
+                class="form-control"
+                style="width: 50rem"
+                />
+                <label class="mt-1">Bootstrap JavaScript</label>
+              </div>
+              <div class="col">
+                <!-- tooltip -->
+                <div class="toolti align-self-center align-items-center">
+                  <button
+                    class="btn btn-primary"
+                    onclick="bootstrapJs()"
+                    onmouseout="outFunc()"
+                  >
+                    <span class="tooltitext" id="bsjsToolti">Copy to clipboard</span>
+                    <i class="fa-regular fa-copy copy-icon"></i
+                  </button>
+                </div>
+              </div>
+            </div>
+
+      <!-- Font Awesome -->
+      <div class="row mb-4">
+        <div class="col">
+          <!-- input fields -->
+          <input
+          type="text"
+          value="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          id="fontawesome"
+          class="form-control"
+          style="width: 50rem"
+          />
+          <label class="mt-1">Font Awesome</label>
+        </div>
+        <div class="col">
+          <!-- tooltip -->
+          <div class="toolti">
+            <button
+              class="btn btn-primary"
+              onclick="fontawesome()"
+              onmouseout="outFunc()"
+            >
+              <span class="tooltitext" id="faToolti">Copy to clipboard</span>
+              <i class="fa-regular fa-copy copy-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+            <!-- Tailwindcss -->
+            <div class="row mb-4">
+              <div class="col">
+                <!-- input fields -->
+                <input
+                type="text"
+                value='<script src="https://cdn.tailwindcss.com"></script>'
+                id="tailwindcss"
+                class="form-control"
+                style="width: 50rem"
+                />
+                <label class="mt-1">Tailwindcss</label>
+              </div>
+              <div class="col">
+                <!-- tooltip -->
+                <div class="toolti">
+                  <button
+                    class="btn btn-primary"
+                    onclick="Tailwindcss()"
+                    onmouseout="outFunc()"
+                  >
+                    <span class="tooltitext" id="twcToolti">Copy to clipboard</span>
+                    <i class="fa-regular fa-copy copy-icon"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- CopyRight Text -->
+            <p class="text-center" style="margin-top: 7rem;">Designed & Coded by => <a class="copyright" target="_blank" href="https://twitter.com/nomanux"> Muhammad Noman</a></p>
+            <!-- Social icons -->
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
